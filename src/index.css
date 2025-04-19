@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light mode - as specified in the requirements */
+    --background: 0 0% 100%;  /* #ffffff */
+    --foreground: 0 0% 10%;   /* #1a1a1a */
+
+    --card: 0 0% 100%;        /* #ffffff */
+    --card-foreground: 0 0% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 10%;
+
+    --primary: 260 84% 70%;   /* #7f5af0 (Purple accent) */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 260 15% 90%;
+    --secondary-foreground: 260 84% 70%;
+
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 260 84% 70%;    /* #7f5af0 (Purple accent) */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 260 84% 70%;
+
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    /* Dark mode - as specified in the requirements */
+    --background: 0 0% 7%;     /* #121212 */
+    --foreground: 0 0% 88%;    /* #e0e0e0 */
+
+    --card: 0 0% 12%;          /* #1f1f1f */
+    --card-foreground: 0 0% 88%;
+
+    --popover: 0 0% 12%;
+    --popover-foreground: 0 0% 88%;
+
+    --primary: 263 100% 67%;   /* #a259ff (Vibrant Purple accent) */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 240 5% 20%;
+    --secondary-foreground: 0 0% 88%;
+
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 65%;
+
+    --accent: 263 100% 67%;    /* #a259ff (Vibrant Purple accent) */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 263 100% 67%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .section {
+    @apply py-16 md:py-24;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-4 md:mb-8;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+  }
+  
+  .nav-link {
+    @apply relative px-3 py-2 transition-colors duration-200 hover:text-primary;
+  }
+  
+  .active-nav-link {
+    @apply text-primary;
+  }
+  
+  .button {
+    @apply px-6 py-3 rounded-lg bg-primary text-primary-foreground hover:opacity-90 transition-opacity disabled:opacity-50 font-medium;
+  }
+  
+  .input-field {
+    @apply w-full rounded-lg border border-input bg-background px-4 py-3 text-foreground focus:outline-none focus:ring-2 focus:ring-primary;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+}
