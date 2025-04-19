@@ -38,12 +38,12 @@ export default function ContactSection() {
             Feel free to reach out to me for any questions or opportunities!
           </p>
           
-          <form 
-            action="https://formsubmit.co/muhammedaslamks8@gmail.com" 
-            method="POST"
-            className="space-y-6 animate-fade-in"
-            onSubmit={handleSubmit}
-          >
+        <form 
+  action="https://formsubmit.co/muhammedaslamks8@gmail.com" 
+  method="POST"
+  className="space-y-6 animate-fade-in"
+  onSubmit={handleSubmit}
+>
             <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="_next" value={`${window.location.origin}/thank-you`} />
             
