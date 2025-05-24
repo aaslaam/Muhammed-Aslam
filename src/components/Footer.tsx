@@ -67,9 +67,6 @@ export default function Footer() {
           <p className="text-sm text-muted-foreground">
             © {currentYear} Muhammed Aslam. All rights reserved.
           </p>
-          <p className="text-sm text-muted-foreground mt-2 md:mt-0">
-            Made with ❤️ using React 
-            </p>
         </div>
       </div>
     </footer>
