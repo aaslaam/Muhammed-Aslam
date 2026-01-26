@@ -15,10 +15,10 @@ interface Project {
 
 const projects: Project[] = [
   {
-
     id: 1,
     title: "To-Do App",
-    description: "A simple, user-friendly To-Do app built with HTML, CSS, and React. Add, delete, and mark tasks as completed with ease.",
+    description:
+      "A simple, user-friendly To-Do app built with HTML, CSS, and React. Add, delete, and mark tasks as completed with ease.",
     technologies: ["HTML", "CSS", "React"],
     liveUrl: "https://aaslaam.github.io/todo/",
     githubUrl: "https://github.com/aaslaam/todo",
@@ -26,7 +26,8 @@ const projects: Project[] = [
   {
     id: 2,
     title: "Calendar App",
-    description: "A calendar app which helps you to add events to a specific day to keep you productive.",
+    description:
+      "A calendar app which helps you to add events to a specific day to keep you productive.",
     technologies: ["HTML", "CSS", "React"],
     liveUrl: "https://aaslaam.github.io/calender-js/",
     githubUrl: "https://github.com/aaslaam/calender-js",
@@ -34,9 +35,11 @@ const projects: Project[] = [
   {
     id: 3,
     title: "SIGNUM Exhibition 2022",
-    description: "It is my first website which I built for my school exhibition to showcase talents of students.",
+    description:
+      "It is my first website which I built for my school exhibition to showcase talents of students.The project where it all stated",
     technologies: ["HTML", "CSS", "JavaScript"],
     githubUrl: "https://github.com/aaslaam/SIGNUM-2022",
+    liveUrl: "https://signum-2022.vercel.app/",
   },
 
   {
@@ -46,7 +49,7 @@ const projects: Project[] = [
     technologies: ["HTML", "CSS", "JavaScript"],
     liveUrl: "https://digital-cloack-js.netlify.app/",
   },
-    {
+  {
     id: 5,
     title: "Calculator",
     description: "A simple calculator",
@@ -57,8 +60,17 @@ const projects: Project[] = [
   {
     id: 5,
     title: "DreamPilot",
-    description: "A startup under development. Helps people find their suitable career and the most suitable jobs for them.",
+    description:
+      "A startup under development. Helps people find their suitable career and the most suitable jobs for them.",
     technologies: ["React", "Django"],
+    status: "in-development",
+  },
+  {
+    id: 6,
+    title: "Food Delivery App",
+    description:
+      "Food delivery app using MERN stack.Allows user to browse veriety of products,add them to cart.",
+    technologies: ["Mongo DB", "Express", "React", "Node Js"],
     status: "in-development",
   },
 ];

@@ -38,6 +38,8 @@ const skillCategories: SkillCategory[] = [
       { name: "Node.js", icon: <Binary className="text-[#339933]" /> },
       { name: "Python", icon: <Code2 className="text-[#3776AB]" /> },
       { name: "Django", icon: <Database className="text-[#092E20]" /> },
+      { name: "Express", icon: <Database className="text-[#092E20]" /> },
+      { name: "Mongo DB", icon: <Database className="text-[#092E20]" /> },
     ],
   },
   {
