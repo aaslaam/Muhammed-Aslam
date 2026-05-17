@@ -66,12 +66,13 @@ const projects: Project[] = [
     status: "in-development",
   },
   {
-    id: 6,
-    title: "Food Delivery App",
-    description:
-      "Food delivery app using MERN stack.Allows user to browse veriety of products,add them to cart.",
-    technologies: ["Mongo DB", "Express", "React", "Node Js"],
-    status: "in-development",
+    id: 5,
+    title: "Patch",
+    description: "A  moke website wich users pay their rent in samll deposits",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    liveUrl: "https://patch-ashy.vercel.app/",
+    githubUrl: "https://github.com/aaslaam/patch-website",
+    
   },
 ];
 
