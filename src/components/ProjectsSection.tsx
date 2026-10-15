@@ -14,8 +14,16 @@ interface Project {
 }
 
 const projects: Project[] = [
-  {
+   {
     id: 1,
+    title: "Aviora",
+    description:
+      "A chat app wich lets people connect with each other",
+    technologies: ["MERN STACK"],
+    liveUrl: "https://aviora-sigma.vercel.app/",
+  },
+  {
+    id: 2,
     title: "To-Do App",
     description:
       "A simple, user-friendly To-Do app built with HTML, CSS, and React. Add, delete, and mark tasks as completed with ease.",
@@ -24,7 +32,7 @@ const projects: Project[] = [
     githubUrl: "https://github.com/aaslaam/todo",
   },
   {
-    id: 2,
+    id: 3,
     title: "Calendar App",
     description:
       "A calendar app which helps you to add events to a specific day to keep you productive.",
@@ -33,37 +41,13 @@ const projects: Project[] = [
     githubUrl: "https://github.com/aaslaam/calender-js",
   },
   {
-    id: 3,
+    id: 4,
     title: "SIGNUM Exhibition 2022",
     description:
-      "It is my first website which I built for my school exhibition to showcase talents of students.The project where it all stated",
+      "It is my first website which I built for my school exhibition to showcase talents of students.The project where it all staRted",
     technologies: ["HTML", "CSS", "JavaScript"],
     githubUrl: "https://github.com/aaslaam/SIGNUM-2022",
     liveUrl: "https://signum-2022.vercel.app/",
-  },
-
-  {
-    id: 4,
-    title: "Digital Cloack JS",
-    description: "Cloack wich tells correct time in 24 Hour format using js",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    liveUrl: "https://digital-cloack-js.netlify.app/",
-  },
-  {
-    id: 5,
-    title: "Calculator",
-    description: "A simple calculator",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    liveUrl: "https://brilliant-cuchufli-88e1a0.netlify.app/",
-  },
-
-  {
-    id: 5,
-    title: "DreamPilot",
-    description:
-      "A startup under development. Helps people find their suitable career and the most suitable jobs for them.",
-    technologies: ["React", "Django"],
-    status: "in-development",
   },
   {
     id: 5,
