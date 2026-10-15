@@ -19,11 +19,11 @@ const projects: Project[] = [
     title: "Aviora",
     description:
       "A chat app wich lets people connect with each other",
-    technologies: ["MERN STACK"],
+    technologies: ["MERN STACK","SOCKET.IO"],
     liveUrl: "https://aviora-sigma.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "To-Do App",
     description:
       "A simple, user-friendly To-Do app built with HTML, CSS, and React. Add, delete, and mark tasks as completed with ease.",
@@ -32,7 +32,7 @@ const projects: Project[] = [
     githubUrl: "https://github.com/aaslaam/todo",
   },
   {
-    id: 3,
+    id: 4,
     title: "Calendar App",
     description:
       "A calendar app which helps you to add events to a specific day to keep you productive.",
@@ -41,18 +41,18 @@ const projects: Project[] = [
     githubUrl: "https://github.com/aaslaam/calender-js",
   },
   {
-    id: 4,
+    id: 5,
     title: "SIGNUM Exhibition 2022",
     description:
-      "It is my first website which I built for my school exhibition to showcase talents of students.The project where it all staRted",
+      "It is my first website which I built for my school exhibition to showcase talents of students.The project where it all started",
     technologies: ["HTML", "CSS", "JavaScript"],
     githubUrl: "https://github.com/aaslaam/SIGNUM-2022",
     liveUrl: "https://signum-2022.vercel.app/",
   },
   {
-    id: 5,
+    id: 2,
     title: "Patch",
-    description: "A  moke website wich users pay their rent in samll deposits",
+    description: "A  moke website wich users pay their rent in small deposits",
     technologies: ["HTML", "CSS", "JavaScript"],
     liveUrl: "https://patch-ashy.vercel.app/",
     githubUrl: "https://github.com/aaslaam/patch-website",
